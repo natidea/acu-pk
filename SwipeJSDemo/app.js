@@ -1,37 +1,29 @@
-﻿class Greeter {
-    element: HTMLElement;
-    span: HTMLElement;
-    timerToken: number;
-
-    constructor(element: HTMLElement) {
+var Greeter = (function () {
+    function Greeter(element) {
         this.element = element;
         this.element.innerHTML += "The time is: ";
         this.span = document.createElement('span');
         this.element.appendChild(this.span);
         this.span.innerText = new Date().toUTCString();
     }
-
-    start() {
-        this.timerToken = setInterval(() => this.span.innerHTML = new Date().toUTCString(), 500);
-    }
-
-    stop() {
+    Greeter.prototype.start = function () {
+        var _this = this;
+        this.timerToken = setInterval(function () { return _this.span.innerHTML = new Date().toUTCString(); }, 500);
+    };
+    Greeter.prototype.stop = function () {
         clearTimeout(this.timerToken);
-    }
-
-}
-
-var Swipe: any;
-var $: any;
-
-window.onload = () => {
+    };
+    return Greeter;
+})();
+var Swipe;
+var $;
+window.onload = function () {
     //var el = document.getElementById('content');
     //var greeter = new Greeter(el);
     //greeter.start();
-
     // Swipe
     //var mySwipe = Swipe(document.getElementById('slider'));
-
     // Slick
     $('.slickContent').slick();
 };
+//# sourceMappingURL=app.js.map
