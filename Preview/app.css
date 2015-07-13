@@ -11,6 +11,23 @@ html, body, .acuApp, .acuSlider, .acuCard, .slick-list, .slick-track {
     height:100%;
 }
 
+.acuApp {
+    background-color:beige;
+    padding: 0;
+}
 .acuCard {
     background-color:beige;
+    padding: 0 15px;
+}
+
+.acuPage1 {
+    background-color:beige;
+}
+
+.acuPage2 {
+    background-color:lightcyan;
+}
+
+.acuPage3 {
+    background-color:linen;
 }
