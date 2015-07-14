@@ -1,7 +1,4 @@
-﻿body {
-    font-size: 16px;
-}
-
+﻿
 /*span {
     font-style: italic;
 }*/
@@ -34,4 +31,5 @@ html, body, .acuApp, .acuSlider, .acuCard, .slick-list, .slick-track {
 
 .tab-content {
     margin-top:10px;
+    font-size: 16px;
 }
