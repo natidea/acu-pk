@@ -1,10 +1,10 @@
 ﻿body {
-    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
 }
 
-span {
+/*span {
     font-style: italic;
-}
+}*/
 
 /* Max Height Everything */
 html, body, .acuApp, .acuSlider, .acuCard, .slick-list, .slick-track {
@@ -30,4 +30,8 @@ html, body, .acuApp, .acuSlider, .acuCard, .slick-list, .slick-track {
 
 .acuPage3 {
     background-color:linen;
+}
+
+.tab-content {
+    margin-top:10px;
 }

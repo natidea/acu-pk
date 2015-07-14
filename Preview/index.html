@@ -21,7 +21,7 @@
     <script src="app.js"></script>
 </head>
 <body>
-    <div class="container-fluid acuApp">
+    <div class="container acuApp">
         <div class="acuSlider">
 
             <!-- Page 1 -->
@@ -36,7 +36,9 @@
                 <!-- Tab panes -->
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane active" id="symptoms">
-                        Dry cough with little or no sputum; sputum is sticky or blood-tinged; afternoon low-grade fever; night sweats; dry throat; low hoarse voice; 5 palm heat; malar fl ush. 
+                        <div style="margin-bottom:10px">Dry cough with little or no sputum; <mark>sputum</mark> is sticky or blood-tinged; afternoon low-grade fever; night sweats; dry throat; low hoarse voice; 5 palm heat; malar flush.</div>
+                        <pre>PULSE:  THIN; RAPID 
+TONGUE:  REDDISH; DRY; CRACKS IN LUNG AREA; DRY COAT</pre>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="points">
                         <pre>
@@ -52,11 +54,13 @@ K 7  Metal - tonifies Kidney. K 10  Water - tonifies Kidney.
 </pre>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="patterns">
-                        <pre>
-PATTERN * DEFICIENT LUNG QI 
-TREATMENT PRINCIPLE * TONIFY LUNG QI 
-WESTERN CORRELATES * TUBERCULOSIS; EMPHYSEMA
-</pre>
+                        <table class="table table-striped">
+                            <tbody>
+                                <tr><td>PATTERN</td><td>DEFICIENT LUNG QI</td></tr>
+                                <tr><td>TREATMENT PRINCIPLE</td><td>TONIFY LUNG QI</td></tr>
+                                <tr><td>WESTERN CORRELATES</td><td>TUBERCULOSIS; EMPHYSEMA</td></tr>
+                            </tbody>
+                        </table>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="notes">
                         <textarea class="form-control" rows="8" placeholder="Enter notes here"></textarea>
@@ -76,7 +80,8 @@ WESTERN CORRELATES * TUBERCULOSIS; EMPHYSEMA
                 <!-- Tab panes -->
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane active" id="symptoms2">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        <blockquote>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</blockquote>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="points2">
                         <pre>
